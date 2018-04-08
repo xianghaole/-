@@ -1,0 +1,22 @@
+/*common css*/
+
+
+
+
+
+
+/*model css*/
+/*头部*/
+.sczj_header{
+    width:100%;
+    background:skyblue;
+    border-bottom:3px solid #ccc;
+}
+.sczj_header>.container{
+    text-align:center;
+    height:40px;
+
+}
+.sczj_header .sczj_font{
+    font:700 16px/40px "simsun";
+}
