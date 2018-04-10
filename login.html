@@ -3,107 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>欢迎登录</title>
-
-
-<style>
-.text{
-width:700px;
-height:603px;
-background:white;
-margin:100px auto;
-position:relative;
-z-index: 1001;
-}
-.text_head{
-height:70px;
-width:700px;
-border-bottom:2px solid #ededed;
-overflow:hidden;
-}
-.text_head h2{
-margin: 20px 0;
-padding-left: 20px;
-border-left: 5px solid #0d59a7;
-}
-.text_middle{
-width:1200px;
-height:563px;
-/*background:green;*/
-}
-.text_left{
-width:640px;
-height:563px;
-/*background:yellow;*/
-float:left;
-}
-label{
-width: 80px;
-float: left;
-font-weight: 700;
-height: 36px;
-line-height: 36px;
-}
-input{
-display: block;
-width: 300px;
-height: 36px;
-border: 1px solid #d9dde1;
-box-sizing: border-box;
-padding: 0 10px;
-font-size: 12px;
-color: #4d555d;
-background: #fff;
-border-radius: 2px;
-}
-button{
-display:block;
-margin-left:200px;
-width:250px;
-height:30px;
-line-height:30px;
-font-size:15px;
-text-align:center;
-background:rgb(13,89,167);
-color:white;
-border:none;
-cursor: pointer;
-/*position:relative;*/
-/*bottom:0;*/
-/*left:30px;*/
-}</style>
-</head>
-<body>
-<form action="#" method="post">
-<div class="text">
-<div class="text_head">
-<h2>登录</h2>
-        </div>
-          <div class="text_middle">
-<div class="text_left">
-<div class="text_first" style="margin:50px 100px;">
-<label for="name">用户名</label>
-                       <div class="text_input">
-<input type="text" id="name" name="username">
-</div>
-  </div>
-    <div class="text_second" style="margin:50px 100px;">
-<label for="login">密码</label>
-                       <div class="text_input">
-<input type="text" id="login" name="password">
-</div>
-  </div>
-    <div class="text_third" style="margin:50px 100px;">
-<label for="ident">验证码</label>
-                        <div class="text_input">
-<input type="text"  name="identify" id="ident"><img  src="CreateCode"/>
-</div>
-  </div>
-    <button>登录</button>
-                </div>
-
-                  </div>
-                    </div>
-</form>
+    <link rel="stylesheet" href="css/login.css">
+</head >
+<body style="background:url(images/banner_02.jpg);">
+    <form action="#" method="post">
+        <div class="text">
+        <div class="text_head">
+        <h2>登录</h2>
+    </div>
+        <div class="text_middle">
+    <div class="text_left">
+    <div class="text_first" style="margin:50px 100px;">
+    <label for="name">用户名</label>
+                           <div class="text_input">
+    <input type="text" id="name" name="username">
+    </div>
+      </div>
+        <div class="text_second" style="margin:50px 100px;">
+    <label for="login">密码</label>
+                           <div class="text_input">
+    <input type="text" id="login" name="password">
+    </div>
+      </div>
+        <div class="text_third" style="margin:50px 100px;">
+    <label for="ident">验证码</label>
+                            <div class="text_input">
+    <input type="text"  name="identify" id="ident"><img  src="CreateCode"/>
+    </div>
+      </div>
+        <button>登录</button>
+    </div>
+              </div>
+    </div>
+    </form>
 
 
 

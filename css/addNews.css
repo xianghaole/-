@@ -1,0 +1,77 @@
+
+
+/*头部*/
+.sczj_header{
+    width:100%;
+    background:skyblue;
+    border-bottom:1px solid #ccc;
+}
+.sczj_header>.container{
+    text-align:center;
+    height:40px;
+
+}
+.sczj_header .sczj_font{
+    font:700 16px/40px "simsun";
+}
+
+
+
+
+/*导航部分*/
+.sczj_nav {
+    border:0;
+    border-bottom:1px solid #ccc;
+    background:#fff;
+    margin-bottom:0;
+}
+.sczj_nav .navbar-brand {
+    height:80px;
+    line-height:50px;
+    padding:0px 15px;
+
+}
+.sczj_nav .navbar-nav > li > a {
+    color: #777;
+    height:80px;
+    line-height:50px;
+    font-size:18px;
+}
+.sczj_nav .navbar-nav > li > a:hover,
+.sczj_nav .navbar-nav > li > a:focus {
+    color: red;
+    background-color: transparent;
+    border-bottom:3px solid red;
+
+}
+.sczj_nav .navbar-nav > .active > a,
+.sczj_nav .navbar-nav > .active > a:hover,
+.sczj_nav .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #fff;
+    border-bottom:3px solid red;
+}
+.sczj_nav .navbar-toggle {
+    border-color: #ddd;
+    margin-top:23px;
+}
+.sczj_nav .navbar-toggle:hover,
+.sczj_nav .navbar-toggle:focus {
+    background-color: #ddd;
+
+}
+.sczj_nav .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+/*内容*/
+.content{
+    margin-top:20px;
+}
+.media{
+    border:1px solid red;
+}
+.media-body{
+    width:800px;
+    font-size:16px;
+    vertical-align: middle;
+}
