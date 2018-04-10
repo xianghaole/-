@@ -92,3 +92,14 @@
     width:100%;
     display:block;
 }
+/*分类模块*/
+.caption{
+    text-align:center;
+}
+.btn{
+    background:skyblue;
+    border-radius:20px;
+    width:200px;
+    height:30px;
+
+}
