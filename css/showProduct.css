@@ -1,11 +1,3 @@
-/*common css*/
-
-
-
-
-
-
-/*model css*/
 /*头部*/
 .sczj_header{
     width:100%;
@@ -72,48 +64,4 @@
 }
 .sczj_nav .navbar-toggle .icon-bar {
     background-color: #888;
-}
-
-
-/*轮播图*/
-.imgBox{
-    display:block;
-    width:100%;
-    height:570px;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-}
-.carousel{
-    border-bottom:2px solid #ccc;
-}
-.imgBox_m{
-    /*height:470px;*/
-    display:block;
-    width:100%;
-}
-.imgBox_m img{
-    width:100%;
-    display:block;
-}
-/*分类模块*/
-.caption{
-    text-align:center;
-}
-.btn{
-    background:skyblue;
-    border-radius:20px;
-    width:200px;
-    height:30px;
-
-}
-.row{
-    background:rgb(233,235,238);
-}
-.thumbnail{
-    background:gainsboro;
-    transition:all 0.5s;
-}
-.thumbnail:hover{
-    box-shadow: 8px 8px 8px skyblue;
 }
