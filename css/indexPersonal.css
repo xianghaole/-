@@ -1,0 +1,145 @@
+/*头部*/
+.sczj_header{
+    width:100%;
+    background:black;
+    border-bottom:1px solid #ccc;
+}
+.sczj_header>.container{
+    text-align:center;
+    height:40px;
+}
+.sczj_header .sczj_font{
+    color:white;
+    font:700 16px/40px "simsun";
+}
+
+
+
+
+/*导航部分*/
+.navbar{
+    background:rgb(233,235,238);
+}
+.sczj_nav {
+    border:0;
+    border-bottom:1px solid #ccc;
+    background:rgb(233,235,238);
+    margin-bottom:0;
+}
+.sczj_nav .navbar-brand {
+    height:80px;
+    line-height:50px;
+    padding:0px 15px;
+
+}
+.sczj_nav .navbar-nav > li > a {
+    color: #777;
+    height:80px;
+    line-height:50px;
+    font-size:18px;
+}
+.sczj_nav .navbar-nav > li > a:hover,
+.sczj_nav .navbar-nav > li > a:focus {
+    color: red;
+    background-color: transparent;
+    border-bottom:3px solid red;
+
+}
+.sczj_nav .navbar-nav > .active > a,
+.sczj_nav .navbar-nav > .active > a:hover,
+.sczj_nav .navbar-nav > .active > a:focus {
+    color: #555;
+    /*background-color: #fff;*/
+    border-bottom:3px solid red;
+}
+.sczj_nav .navbar-toggle {
+    border-color: #ddd;
+    margin-top:23px;
+}
+.sczj_nav .navbar-toggle:hover,
+.sczj_nav .navbar-toggle:focus {
+    background-color: #ddd;
+
+}
+.sczj_nav .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar-form{
+    padding:0;
+    margin-top:20px;
+}
+.btn{
+    border-radius:20%;
+    background:skyblue;
+    color:white;
+}
+.btn:hover{
+    background:none;
+}
+/*内容区域*/
+.content{
+    width:100%;
+    height:800px;
+    /*background:yellow;*/
+}
+.content .content_left{
+    width:60%;
+    float:left;
+    height:800px;
+    border-right:1px solid grey;
+    box-sizing:border-box;
+}
+.content_left_top{
+    width:100%;
+    position:relative;
+    /*background:skyblue;*/
+}
+.media{
+    border:1px solid grey;
+    border-right:none;
+}
+.media-body{
+    width:800px;
+    font-size:16px;
+    vertical-align: middle;
+}
+.media-body a{
+    text-decoration:none;
+    display:inline-block;
+    margin-right:30px;
+    color:grey;
+}
+.content_left_top button{
+    position:absolute;
+    width:80px;
+    height:32px;
+    background:skyblue;
+    border:0;
+    color:white;
+    text-align:center;
+    font-size:14px;
+    border-radius:9px;
+    right:0px;
+    top:0px;
+}
+.content_right{
+    float:right;
+    width:40%;
+    height:800px;
+    /*background:red;*/
+}
+.content_right .content_right_top{
+    width:100%;
+    height:47%;
+    /*background:yellow;*/
+    border-bottom:2px solid grey;
+}
+.content_right .content_right_top ul li{
+    list-style:none;
+}
+.content_right .content_right_top ul li a{
+    text-decoration:none;
+    display:block;
+    font-size:16px;
+    margin-top:10px;
+}
