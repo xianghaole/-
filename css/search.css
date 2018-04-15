@@ -1,0 +1,108 @@
+
+/*头部*/
+.sczj_header{
+    width:100%;
+    background:black;
+    border-bottom:1px solid #ccc;
+}
+.sczj_header>.container{
+    text-align:center;
+    height:40px;
+
+}
+.sczj_header .sczj_font{
+    color:white;
+    font:700 16px/40px "simsun";
+}
+
+
+
+
+/*导航部分*/
+.navbar{
+    background:rgb(233,235,238);
+}
+.sczj_nav {
+    border:0;
+    border-bottom:1px solid #ccc;
+    background:rgb(233,235,238);
+    margin-bottom:0;
+}
+.sczj_nav .navbar-brand {
+    height:80px;
+    line-height:50px;
+    padding:0px 15px;
+
+}
+.sczj_nav .navbar-nav > li > a {
+    color: #777;
+    height:80px;
+    line-height:50px;
+    font-size:18px;
+}
+.sczj_nav .navbar-nav > li > a:hover,
+.sczj_nav .navbar-nav > li > a:focus {
+    color: red;
+    background-color: transparent;
+    border-bottom:3px solid red;
+
+}
+.sczj_nav .navbar-nav > .active > a,
+.sczj_nav .navbar-nav > .active > a:hover,
+.sczj_nav .navbar-nav > .active > a:focus {
+    color: #555;
+    /*background-color: #fff;*/
+    border-bottom:3px solid red;
+}
+.sczj_nav .navbar-toggle {
+    border-color: #ddd;
+    margin-top:23px;
+}
+.sczj_nav .navbar-toggle:hover,
+.sczj_nav .navbar-toggle:focus {
+    background-color: #ddd;
+
+}
+.sczj_nav .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+/*版心容器*/
+.box{
+    /*background:yellow;*/
+    margin-top:20px;
+    height:800px;
+}
+.first{
+    border-right:1px solid pink;
+    float:left;
+    width:50%;
+}
+.second{
+    padding:0;
+    float:right;
+    width:50%;
+}
+.col-xs-6{
+    height:800px;
+}
+.second ul{
+    width:100%;
+}
+.second ul li{
+    list-style:none;
+}
+.second ul li a{
+    display:block;
+    width:100%;
+    border:1px solid pink;
+    text-align:center;
+    margin-top:30px;
+    height:40px;
+    /*background:skyblue;*/
+}
+p{
+    color:pink;
+    font-weight:700;
+    font-size:18px;
+    text-align:center;
+}
