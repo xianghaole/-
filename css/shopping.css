@@ -65,106 +65,30 @@
 .sczj_nav .navbar-toggle .icon-bar {
     background-color: #888;
 }
-/*个人信息模块*/
-.person{
-    width:100%;
-    height:150px;
-    border-bottom: 1px solid pink;
-    /*background:skyblue;*/
-}
-.person .person_left{
-    width:70%;
-    height:150px;
-    float:left;
-    /*border-radius:50%;*/
-    /*background:yellow;*/
-    overflow:hidden;
-    /*margin-left:10%;*/
-}
-.person_left img{
-    float:left;
-}
-.person .person_left img{
-    display:block;
-    margin-right:20px;
-}
-input{
+
+/*我的购物车订单历史订单区域样式*/
+.row{
     margin-top:20px;
-    background:skyblue;
-    height:30px;
-    border-radius:8px;
-    border:0;
-    color:white;
 }
-.person_right{
-    float:right;
-    width:30%;
-    height:150px;
-    /*background:green;*/
-    border-left:1px solid pink;
-    /*margin-right:10%;*/
-}
-.person_right ul{
-    width:30%;
-    height:150px;
-    /*background:green;*/
-}
-.person_right ul li{
-    list-style:none;
-    float:left;
-}
-.person_right ul li a{
-    display:inline-block;
-    width:192px;
-    height:50px;
-    /*background:red;*/
-    text-decoration:none;
-    line-height:50px;
-    text-align:center;
-    font-size:18px;
-}
-.person_right ul li .first{
-    /*border-left:1px solid pink;*/
-}
-.person_right ul li a:hover{
-    background:pink;
-}
-/*文章好友区域*/
-.row p{
-    font-weight:700;
+.col-xs-4 p{
     color:grey;
-    text-align:center;
-    font-size:16px;
+    font-weight:700;
 }
-.col-xs-3{
-    padding:0;
-    border-right:1px solid pink;
-}
-.col-xs-6{
+.col-xs-4{
     padding:0;
     font-size:16px;
     color:skyblue;
     text-align:center;
     border-right:1px solid pink;
 }
-li{
+.col-xs-4 li{
     list-style:none;
-}
-.col-xs-6 li{
-
-    border-bottom:1px solid pink;
-
 }
 .btn{
     margin-top:10px;
-    vertical-align:middle;
+    vertical-align:bottom;
     width:60px;
     background:skyblue;
     color:white;
     border-radius:20px;
-}
-.img-circle{
-    width:100px;
-    height:100px;
-    overflow:hidden;
 }
